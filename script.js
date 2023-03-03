@@ -1,39 +1,46 @@
 // number 1
 
-
-// const num = prompt("Vvedite chislo");
-// console.log(num / 10);
-
-
+// const numbers = [12,37,97,43,33,65,29,51,3,14]
+// for (let i = 0; i < numbers.length; i +=2) {
+//   console.log(numbers[i]);
+// }
 
 // number 2
 
-
-// const num1 = prompt('Vvedite chislo')
-// const num2 = prompt('Vvedite chislo')
-// if (num1 < num2) {
-//     console.log(num1)
-// } else {
-//     console.log(num2)
+// const numbers = [12,23,43,56,89,23,09,67,89,21,46,79,23,20]
+// for(let i = 0; i < numbers.length; i ++) {
+//     if(numbers[i]<55 && numbers[i]>20)
+//     console.log(numbers[i])
 // }
 
+// number 3
 
-// const num3 = prompt('Number')
-// if (num3 > 50) {
-//     console.log('Bolshe')
-// } else if (num3 == 50) {
-//     console.log('Rovno')
-// } else {
-//     console.log('Menshe')
-// }
+// const numbers = [3, 5, 11, 2, 8, 1, 6];
+// for(let i = 0; i < numbers.length; i ++)
+// console.log(numbers[i])
 
 
 // number 4
 
-// const myAge = prompt('Vvedite vozrast')
-// const myName = prompt('Vvedite Imya') 
-// if (myAge >= 18) {
-//     console.log('Hello ' + myName)
-// } else {
-//     console.log('Hi ' + myName)
+// const numbers = [3, 5, 11, 2, 8, 1, 6];
+// const numbersSquared = []
+
+// for(let i = 0; i < numbers.length; i ++) {
+// numbersSquared.push(numbers[i]*numbers[i])
+// console.log(numbersSquared[i])
 // }
+// const lastElem = numbersSquared[numbersSquared.length -1]
+// console.log(lastElem)
+
+
+// number 5
+
+
+// const user = {
+//     firstName: 'Anton',
+//     lastName: 'Chumakov',
+//     age: 32,
+//     salary: 500
+// }
+
+// console.log(`User name is ${user.firstName} ${user.lastName} He is ${user.age}`);
