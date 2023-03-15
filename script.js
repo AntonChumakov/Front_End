@@ -1,48 +1,29 @@
-// ==============================================
+// const btn1 = document.querySelector('.btn1')
+// const square1 = document.querySelector('.square1')
+// btn1.addEventListener('click', function(){
+//     square1.classList.toggle('green')
+// })
 
-// const numbersDiv = document.querySelector('.numbers')
-// for(let i = 100; i >= 50; i -= 10) {
-//     numbersDiv.innerHTML += `<p>${i}</p>`
-// }
+// const btn2 = document.querySelector('.btn2')
+// const square2 = document.querySelector('.square2')
+// btn2.addEventListener('click', function(){
+//     square2.classList.toggle('blue')
+//     console.log(square2)
+// })
+// const btn3 = document.querySelector('.btn3')
+// const square3 = document.querySelector('.square3')
+// btn3.addEventListener('click', function(){
+//     square3.classList.toggle('yellow')
+// })
+// const btn4 = document.querySelector('.btn4')
+// const root = document.querySelector('.root')
+// btn4.addEventListener('click', function(){
+//     root.innerHTML += `<p class="p1">Privet</p>`
+// })
 
-// ==============================================
-
-// const strings = ['Ta', 'Tata', 'Tatata', 'Da', 'Dada', 'Dadada']
-// const stingsContainer = document.querySelector('.stringsContainer')
-// for(let i = 0; i < strings.length; i ++) {
-//     stingsContainer.innerHTML += `<p>${strings[i]}</p>`
-// }
-
-// ==============================================
-
-
-// const users = [
-//     { first_name: 'Armin', last_name: 'Mayer', age: 10 },
-//     { first_name: 'Wilhelm', last_name: 'Schmidt', age: 20 },
-//     { first_name: 'Ursula', last_name: 'Smith', age: 30 },
-//     { first_name: 'Mary', last_name: 'Fest', age: 40 }
-// ];
-// let users_container = document.querySelector('.users_container');
-
-// function createUserCard(user) {
-//   let card = document.createElement('div');
-//   card.classList.add('card');
-  
-//   let name = document.createElement('h1');
-//   name.innerText = `${user.first_name} ${user.last_name}`;
-  
-//   let age = document.createElement('p');
-//   age.innerText = `Age: ${user.age}`;
-  
-//   card.appendChild(name);
-//   card.appendChild(age);
-
-//   return card;
-// }
-
-// let adultUsers = users.filter(user => user.age >= 18);
-
-// adultUsers.forEach(user => {
-//     let card = createUserCard(user);
-//     users_container.appendChild(card);
-// });
+// const colors = document.querySelectorAll('p')
+// const btn5 = document.querySelector('.btn5')
+// const root1 = document.querySelector('.root1')
+// btn5.addEventListener('click', function(){
+//     root1.innerHTML += `<p class="p1">Privet</p><p class="p2">Privet</p>`
+// })

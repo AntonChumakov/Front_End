@@ -1,31 +1,80 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 section {
-
     display: flex;
 
 }
-.item {
+
+.btn1 {
     width: 200px;
     height: 200px;
+    border: solid 2px black;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 30px;
+    background-color: lightgray;
 }
-.red {
-    background-color: red;
+.square1 {
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: greenyellow;
 }
+
 .green {
-    position: absolute;
-    margin: 50px 0 0 50px;
-    background-color: green;
+    background-color: seagreen;
+    width: 100px;
+    height: 100px;
 }
-.green:hover {
-    transform: scale(1.5) rotate(-45deg);
-    transition: 2s;
+
+.btn2 {
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 30px;
+    background-color: lightgray;
 }
-.blue { position: absolute;
-    margin: 100px 0 0 100px;
-    background-color: blue;
+
+.square2 {
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: rgb(234, 174, 251);
+}
+
+.blue {
+    background-color: skyblue;
+}
+.btn3 {
+    width: 150px;
+    height: 150px;
+    border: solid 2px black;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 30px;
+    background-color: lightgray;
+}
+.square3 {
+    width: 150px;
+    height: 150px;
+    border: solid 2px black;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: rgb(254, 218, 146);
+}
+.yellow {
+    width: 190px;
+    height: 190px;
+}
+
+
+.p1 {
+    color: blue;
+}
+.p2 {
+    color: green;
 }
